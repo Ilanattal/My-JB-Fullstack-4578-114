@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+    background-image: linear-gradient(20deg, aqua, white ) ;
+}
+/* Dans cette partie du code on s'attaque au formulaire */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    width: 600px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.grid-container > div:nth-child(1) {
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 20px;
+    border: 1px solid aqua;
+}
+.grid-container > div:nth-child(2) {
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid aqua;
+}
+.grid-container > div:nth-child(3) {
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 20px;
+    border: 1px solid aqua;
+}
+.grid-container > div:nth-child(4) {
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid aqua;
+}
+.grid-container > div:nth-child(5) {
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 20px;
+    border: 1px solid aqua;
+}
+.grid-container > div:nth-child(6) {
+    text-align: center;
+    margin-top: 5px;
+       padding: 10px;
+    border: 1px solid aqua;
+}
+.grid-container > div:nth-child(7) {
+    text-align: center;
+    margin-top: 5px;
+        padding-top: 20px;
+    border: 1px solid aqua;
+}
+.grid-container > div:nth-child(8) {
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid aqua;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    /* text-align: center; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.boutons{
+    display: flex;
+    justify-content: space-evenly; /* espace entre les boutons */
+    /* gap: -200px; espace entre les boutons */
+}
+/* La on a finis de s'occuper du form */
+
+
+/* .ensemble{
+    height: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 3% 3% 25%;
+
+} */
+
+.ensemble > * {
+    border: 1px solid black;
+}
+
+img{
+    height: 250px;
+}
+header,menu, footer {
+    grid-column: span 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header{
+    text-align: center;
+}
+h1{
+    font-style: italic;
+}
+menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 8px;
+    margin: auto;
+}
+
+/* Dans cette partie du code on s'occupe des images et du formulaire  */
+
+.conteneur{
+    display: flex; /* Flexbox pour aligner les divs "images" et "image-form" côte à côte */
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: -1200px;
+    margin: 10px;
+    /* box-sizing: border-box; */
+}
+.images {
+    display: flex; /* Flexbox pour aligner les images côte à côte */
+    gap: 20px; /* Espace entre les images */
+    /* height: 250px; */
+}
+/* .images img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+} */
+
+.image-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%; /* Ajuster la largeur selon les besoins */
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.image-form img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Espace entre l'image et le formulaire */
+    /* padding: 10px; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    font-size: x-large;
+    text-align: center;
+}
+
+.image1{
+    width: 300px;
+    height: 670px;
+    margin: 3px;
+}
+.image2{
+    width: 300px;
+    height: 670px;
+    margin: 3px;
+}

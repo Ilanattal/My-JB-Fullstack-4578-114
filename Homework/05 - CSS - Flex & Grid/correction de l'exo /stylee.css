@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1; /* c'est pour dire que nous avons qu'une seule page entiere dans le grid ca permets de dire on a un grand carré qui va etre separe en plusieurs partie  */
+    grid-template-rows: 2fr 1fr 6fr 1fr; /* ici on divise la grid en plusieurs lignes la il est ecrit que le premier menu (header) fait 2fr que le (menu) fait 1 fr que le (main) fait 6fr et le (footer) faire 1 fr*/
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1;
+}
+
+main > div, .container > *, #cat3-plus-form > * {
+    border: 1px solid   black ;
+}
+
+#cat3-plus-form{
+    display: flex; /* on mets cette ID en flex afin de pouvoir aligner les elements en collones  */ 
+    flex-direction: column; /* ce code nous permets de dire a notre flex la direction et de se mettre en collone  */ 
+    height: 100%; /* on rajoute toujours ca pour lui dire de prendre 100% de son espace entier */
+}
+
+#cat3-plus-form > *{
+    height: 100%; /* on rajoute toujours ca pour lui dire de prendre 100% de son espace entier */
+}
+
+#form{
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* la on lui dit qu'on a besoin de deux collones dans le grid. Une de 1fr et une autre de 3fr */
+    grid-template-rows: 4; /* Ici on lui dit qu'on veut 4 lignes dans notre grid */
+}
+
+#cat1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    height: 20%;
+    width: 30%;
+}

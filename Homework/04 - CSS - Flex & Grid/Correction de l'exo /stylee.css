@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1; /* c'est pour dire que nous avons qu'une seule page entiere dans le grid ca permets de dire on a un grand carré */
+    grid-template-rows: 2fr 1fr 6fr 1fr; /* ici on divise la grid en plusieurs lignes la il est ecrit que le premier menu (header) fait 2fr que le (menu) fait 1 fr que le (main) fait 6fr et le (footer) faire 1 fr*/
+}

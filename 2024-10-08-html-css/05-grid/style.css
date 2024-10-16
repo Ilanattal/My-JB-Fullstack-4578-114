@@ -1,0 +1,12 @@
+body > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*  1fr 1fr 1fr le repeat(3, 1fr) c'est pour remplacer le fait d'écrire trois fois la meme chose a la suite */
+}
+
+body > div > div {
+    font-size: x-large;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid  grey;
+    background-color: lightpink;
+}

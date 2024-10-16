@@ -1,0 +1,49 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr 3fr 3fr 1fr;
+
+
+}
+
+.container > * {
+    border: 1px solid red;
+}
+
+header{
+    grid-row: 1;  /* la on lui dit qu'il sera dans la premiere grille */
+    grid-column: 1 / span 3; /* et la on lui dit qu'il prendra l'espace des trois grilles du haut */
+}
+
+nav {
+    grid-row: 2; /* la on lui dit qu'il sera dans la deuxieme grille */
+    grid-column: 1 / span 3; /* et la on lui dit qu'il prendra l'espace des trois grilles du haut */
+}
+
+#cat1 {
+    grid-row: 3 / span 2;   /* la on lui dit qu'il est dans la ligne numero 3 et qu'il doit prendre 2 place */
+    grid-column: 1; /* et la on lui dit d'etre dans la premiere collone*/
+}
+
+#cat2 {
+    grid-row: 3 / span 2;
+    grid-column: 2;
+}
+
+#cat3{
+    grid-row: 3;
+    grid-column: 3;
+}
+
+#form{
+    grid-row: 4;
+    grid-column: 3;
+}
+

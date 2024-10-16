@@ -1,0 +1,41 @@
+h1{
+    color: green;
+    background-color: yellow;
+}
+p{
+    color: red;
+}
+
+.cool-design {
+    color: green;
+    background-color: yellow;
+}
+.cool-design-big{
+    font-size: xx-large;
+}
+
+#last-paragraph{
+    font-size: small;
+    font-style: italic;
+}
+input[placeholder] {
+    background-color: yellow;
+    border:dashed 3px;
+}
+
+a:hover{
+    color: aqua;
+}
+
+p::first-line{
+    font-size: xx-large;
+    color: aqua;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+p > a {
+    color: black;
+} 

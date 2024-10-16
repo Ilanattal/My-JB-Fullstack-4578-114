@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    color: brown;
+   
+}
+
+.welcome-text{
+    text-align: center;
+}
+.right{
+    background-color: yellow;
+}
+.button{
+    background-color:teal;
+}
+form{
+    float: right;
+    
+}
+.left{
+    float: left;
+}
+.login-table{
+    border: 2px solid black;
+    
+}
+#img-container {
+    display: flex; /* Utilise Flexbox */
+    justify-content: center; /* Centre les images horizontalement */
+    flex-wrap: wrap; /* Permet aux images de passer à la ligne si nécessaire */
+}
+
+#img-container img {
+    max-width: 150px; /* Ajuste la taille des images (modifiable) */
+    margin: 10px; /* Espacement entre les images */
+}
+#copyrights{
+    text-align:center
+}
+body {
+    background-image: url(backgroud-papier-peint.jpg);
+    background-size: cover;
+   
+}
+

@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Falcon;
+    src: url(Fonts/Falcon.ttf);
+}
+
+h1{
+    font-family: Falcon;
+    text-align: center;
+}
+h1 :hover{
+    color: brown;
+    transition: 2s;
+    transform: rotate(100px) scale(2);
+}
+
+@keyframes MyAnima{
+    from{
+        color: blue;
+        transform: scale(2);
+    }
+    to {
+        color: red;
+        transform: scale(0.5);
+    }
+}
+@keyframes MyLongAnima{
+    0%{
+        color: blue;
+        transform: scale(2);
+    }
+    50%{
+        color: green;
+        transform: scale(3);
+    }
+    70%{
+        color: aqua;
+        transform: scale(2.5);
+
+    }
+    100% {
+        color: red;
+        transform: scale(2);
+    }
+}
+p{
+    text-align: center;
+}
+p:hover{
+    margin-top: 10px;
+    animation: MyLongAnima 3s;
+}
+h2 { 
+    font-size: 16px;
+}
+@media (max-width: 600px){
+    h2{
+        font-size: 32px;
+    }
+}

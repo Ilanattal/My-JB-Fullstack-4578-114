@@ -1,0 +1,25 @@
+body{
+text-align: center;
+}
+
+.col{
+    border: 1px solid black;
+}
+
+.col:nth-child(1){
+    background-color: red;
+}
+.col:nth-child(2){
+    background-color: green;
+}
+.col:nth-child(3){
+    background-color: blue;
+}
+.col:nth-child(4){
+    background-color: yellow;
+}
+@media (min-width: 1200px) { /* Remplace 1200px par la largeur que tu considères comme "mode large" */
+    .col:nth-child(4) {
+        display: none; /* Cache la quatrième colonne (D) en mode large */
+    }
+}

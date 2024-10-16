@@ -1,0 +1,23 @@
+.tomate {
+    width: 50%;
+    height: 50%;
+}
+img{
+    width: 50%;
+    height: 50%; 
+}
+.titre{
+    text-align: center;
+}
+h6{
+    margin-top: -10px;
+}
+h2{
+    margin-top: -15px;
+}
+.titre h1{
+text-decoration: underline;
+}
+.articles h1{
+    text-decoration: underline;
+}
